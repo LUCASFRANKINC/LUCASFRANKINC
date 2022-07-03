@@ -1,0 +1,1 @@
+console.log('The endlessly opportunity ever!'.match(/\bendless|ever\b/));
