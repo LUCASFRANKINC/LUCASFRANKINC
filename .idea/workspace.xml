@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02799c4d-f6fb-44ce-884c-b942728152be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/chapter_RegularExpressions/methods/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/chapter_RegularExpressions/methods/exec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <workItem from="1652119572819" duration="38000" />
       <workItem from="1652119881421" duration="16000" />
       <workItem from="1652119919271" duration="168000" />
-      <workItem from="1657478040807" duration="10602000" />
+      <workItem from="1657478040807" duration="13209000" />
     </task>
     <servers />
   </component>
