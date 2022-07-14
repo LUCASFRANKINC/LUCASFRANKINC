@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
   <br>
-<a href="https://wakatime.com/@b9a1d1b6-f788-4868-80d7-80e9ba3ccc1c"><img src="https://wakatime.com/badge/user/b9a1d1b6-f788-4868-80d7-80e9ba3ccc1c.svg" alt="Total time coded since May 19 2022" /></a>
+  <a href="https://wakatime.com/@c68a94a6-ca62-442f-bb7e-9ebbec5b4f02"><img src="https://wakatime.com/badge/user/c68a94a6-ca62-442f-bb7e-9ebbec5b4f02.svg" alt="Total time coded since Jul 14 2022" /></a>
 </div>
 
 ---
@@ -44,13 +44,9 @@
   </a>
  </div>
 
-<div id="about" align="center">
-   <img src="/giphy.gif" width="100%" height="300"/> 
-</div>
-
 ---
 
-### :hammer_and_wrench: Languages and Tools :
+### :hammer_and_wrench: Proficiency. :
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
