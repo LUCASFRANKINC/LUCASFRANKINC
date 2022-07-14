@@ -20,19 +20,19 @@
 
 ---
 
-<h2> About Me </h2>
+<h2> What y'all need to know! </h2>
 
-💻 I'm a Full Stack Developer Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> at <img src="https://img.shields.io/badge/Microverse-blueviolet" width="70"/> and aspiring Tech Journalist.
+💻 I'm a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> at <img src="https://img.shields.io/badge/Microverse-blueviolet" width="70"/>, and a code addict btw &hearts;.
 
-♥ I’m interested in developing software applications to solve real-world problems.
+♥ I’m interested in developing applications to solve real-world problems(The pending problems. Just being specific 🕺).
 
 🌱 I’m constantly learning and improving on new software tools & technologies.
  
-👯 I’m looking to collaborate on any open source project.
+👯 Lets collaborate, two heads are always better than one. Lets make coding fun.
 
  
 <div id="badges">
- 💬 Connect with me on
+ 💬 Too hot to handle, but here are my handles 🧞
  <a href="mailto:lucasfrank254@gmail.com">
  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
@@ -64,7 +64,9 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LUCASFRANKINC&show_icons=true&theme=radical&langs_count=8)](https://github.com/LUCASFRANKINC/github-readme-stats" height="250em"/> 
  <img src="https://activity-graph.herokuapp.com/graph?username=LUCASFRANKINC&theme=radical" height="250em" />
 </div>
+
 ## Contributing
+
 This repo contains code written by me, creating solutions that I felt needed to be added as I was learning JavaScript.
 
 Also exists folders specific to the chapters as named. Peruse through and gain understanding.Code is well commented.
