@@ -96,3 +96,14 @@ function changeCase(x) {
   }
 }
 console.log(changeCase("FontWeight")); //logs font-weight
+
+//The following code receives a farenheit value and converts it to a celcius one
+function f2c(x = "0F") {
+  let expReg = new RegExp(/(-?\d+(?:\.\d*)?)F\b/, "ig");
+  return x.replace(
+    expReg,
+    (match, p1, offset, string) => ((p1 - 32) * 5) / 9 + "C"
+  );
+}
+
+console.log(f2c("-3.0f"));
