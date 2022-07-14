@@ -32,7 +32,7 @@
 
  
 <div id="badges">
- 💬 Too hot to handle, but here are my handles 🧞
+ 💬 Human are communication oriented, aint we? 🧞
  <a href="mailto:lucasfrank254@gmail.com">
  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
@@ -46,7 +46,7 @@
 
 ---
 
-### :hammer_and_wrench: Proficiency. :
+### :hammer_and_wrench: Proficiency
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
