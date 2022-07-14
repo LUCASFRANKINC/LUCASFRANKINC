@@ -8,7 +8,11 @@ Student at Microverse.
 
 
 ## Contributing
-This repo contains code written by me, without disclaimer. Feel free to use it/them 💯.
+This repo contains code written by me, creating solutions that I felt needed to be added as I was learning JavaScript.
+
+Also exists folders specific to the chapters as named. Peruse through and gain understanding.Code is well commented.
+
+Feel free to use it/them 💯.
 
 Credit the work if you feel like it's worth ☕.
 
