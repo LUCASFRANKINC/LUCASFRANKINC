@@ -4,7 +4,7 @@
 let string =
   "The quick brown fox jumped over the lazy dog. The yellow fox was intriguingly fast";
 let regXp = new RegExp(/(?<color>brown|yellow)?(\s)(fox)/, "ig");
-//--------------------Using special characters as replacement strings--------------------
+//--------------------Using special characters ('$x') as replacement strings--------------------
 
 //using named capturing groups
 let captStr = string.replace(regXp, "$<color>");
