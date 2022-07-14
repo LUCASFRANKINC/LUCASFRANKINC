@@ -81,17 +81,18 @@ console.log(switched);
 
 //change string functions camelCase to camel-case.eg. borderTop to border-top
 function changeCase(x) {
-    if(x) {
-        let regXp = /[A-Z]/g;
-        let newStr = '';
-        if(regXp.test(x)) {
-            newStr = x.replace(regXp,function(match,offset, string){
-                //check offset to see if it appears at string beginning
-                return (offset > 0 ? '-' : '') + match.toLowerCase();
-            });
-        }
-        else newStr = "Your string does not seem to have the camelCase to be changed to camel-case!";
-        return newStr;
-    }
+  if (x) {
+    let regXp = /[A-Z]/g;
+    let newStr = "";
+    if (regXp.test(x)) {
+      newStr = x.replace(regXp, function (match, offset, string) {
+        //check offset to see if it appears at string beginning
+        return (offset > 0 ? "-" : "") + match.toLowerCase();
+      });
+    } else
+      newStr =
+        "Your string does not seem to have the camelCase to be changed to camel-case!";
+    return newStr;
+  }
 }
-console.log(changeCase('FontWeight'));//logs font-weight
+console.log(changeCase("FontWeight")); //logs font-weight
