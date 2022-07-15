@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Convert and return a number in the specified radix
@@ -10,22 +10,22 @@
  * @author  Codevangelist Luke - Frank Dex Devs&reg;&hearts;
  */
 function radixStringCreator(num, base_int) {
-    if (base_int !== 2 && base_int !== 8 && base_int !== 16) throw new Error('Value must be 2, 8 or 16!')
-    let stringRep = null;
-    switch (base_int) {
-        case 2:
-            stringRep = '0b';
-            break;
-        case 8:
-            stringRep = '0o';
-            break;
-        case 16:
-            stringRep = '0x';
-            break;
-    }
-    return stringRep + (num).toString(base_int);
+  if (base_int !== 2 && base_int !== 8 && base_int !== 16)
+    throw new Error("Value must be 2, 8 or 16!");
+  let stringRep = null;
+  switch (base_int) {
+    case 2:
+      stringRep = "0b";
+      break;
+    case 8:
+      stringRep = "0o";
+      break;
+    case 16:
+      stringRep = "0x";
+      break;
+  }
+  return stringRep + num.toString(base_int);
 }
-
 
 /**
  * Convert a radix value to its equivalent numeric figure
@@ -37,26 +37,26 @@ function radixStringCreator(num, base_int) {
  * @author  Codevangelist Luke - Frank Dex Devs&reg;&hearts;
  */
 function radixtoBase10(str) {
-    if (str) {
-        let base = null;
-        let radix = str.charAt(1);
-        let strToConvert = str.slice(2);
-        switch (radix) {
-            case 'b':
-            case 'B':
-                base = 2;
-                break;
-            case 'o':
-            case 'O':
-                base = 8;
-                break;
-            case 'x':
-            case 'X':
-                base = 16;
-                break;
-        }
-        return parseInt(strToConvert, base);
+  if (str) {
+    let base = null;
+    let radix = str.charAt(1);
+    let strToConvert = str.slice(2);
+    switch (radix) {
+      case "b":
+      case "B":
+        base = 2;
+        break;
+      case "o":
+      case "O":
+        base = 8;
+        break;
+      case "x":
+      case "X":
+        base = 16;
+        break;
     }
+    return parseInt(strToConvert, base);
+  }
 }
 
 /**
@@ -70,15 +70,15 @@ function radixtoBase10(str) {
  * @author  Codevangelist Luke - Frank Dex Devs&reg;&hearts;
  */
 function mergeObjects(target, ...source) {
-    //source placed into an array
-    for (const src of source) {
-        for (const prop of Object.keys(src)) {
-            if (!(prop in target) || !target[prop]) {
-                target[prop] = src[prop];
-            }
-        }
+  //source placed into an array
+  for (const src of source) {
+    for (const prop of Object.keys(src)) {
+      if (!(prop in target) || !target[prop]) {
+        target[prop] = src[prop];
+      }
     }
-    return target;
+  }
+  return target;
 }
 
 /**
@@ -102,57 +102,69 @@ function mergeObjects(target, ...source) {
  * @author  Codevangelist Luke - Frank Dex Devs&reg;&hearts;
  */
 function alphaNumSort(array, sortOrder = 0) {
-    if (sortOrder === 0 || sortOrder === 1) {
-        array = array.flat(Infinity);
-        return (array.every(value => !isNaN(value))) ? array.sort((a, b) => {
-            switch (sortOrder) {
-                case 0:
-                    return a - b;
-                case 1:
-                    return b - a;
-            }
-        }) : array.every(value => isNaN(value)) ? array.sort((a, b) => {
-            let [s, t] = [a.toLowerCase(), b.toLowerCase()];
-            switch (sortOrder) {
-                case 0:
-                    if (s < t) return 1; else return 0;
-                case 1:
-                    if (s > t) return -1; else return 0;
-            }
-        }) : array.sort();
-    } else throw new Error("sortOrder param strictly set to 0 or 1!");
+  if (sortOrder === 0 || sortOrder === 1) {
+    array = array.flat(Infinity);
+    return array.every((value) => !isNaN(value))
+      ? array.sort((a, b) => {
+          switch (sortOrder) {
+            case 0:
+              return a - b;
+            case 1:
+              return b - a;
+          }
+        })
+      : array.every((value) => isNaN(value))
+      ? array.sort((a, b) => {
+          let [s, t] = [a.toLowerCase(), b.toLowerCase()];
+          switch (sortOrder) {
+            case 0:
+              if (s < t) return 1;
+              else return 0;
+            case 1:
+              if (s > t) return -1;
+              else return 0;
+          }
+        })
+      : array.sort();
+  } else throw new Error("sortOrder param strictly set to 0 or 1!");
 }
 
 /**
-*The class possesses the ability to check the ***key:value*** Map() values against the
-* values expected by the Map object.
-* @description The keyType & valueType expect string values ***returned by the typeof operator***
-* @example
-* let typedMap = new TypeDefinedMap("string", "number");
-* typedMap.set("PhpStorm rocks!!", 1)
+ *The class possesses the ability to check the ***key:value*** Map() values against the
+ * values expected by the Map object.
+ * @description The keyType & valueType expect string values ***returned by the typeof operator***
+ * @example
+ * let typedMap = new TypeDefinedMap("string", "number");
+ * typedMap.set("PhpStorm rocks!!", 1)
  */
 class TypeDefinedMap extends Map {
-    #keyType;
-    #valueType;
-    constructor(keyType, valueType, entries) {
-        if (entries) {
-            for (let [k, v] of Object.entries(entries)) {
-                if (typeof k !== keyType || typeof v !== valueType) throw new TypeError(`Expected {${keyType}:${valueType}}, found {${typeof k}: ${typeof v}}`)
-            }
-        }
-        super(entries);
-        this.#keyType = keyType;
-        this.#valueType = valueType;
+  #keyType;
+  #valueType;
+  constructor(keyType, valueType, entries) {
+    if (entries) {
+      for (let [k, v] of Object.entries(entries)) {
+        if (typeof k !== keyType || typeof v !== valueType)
+          throw new TypeError(
+            `Expected {${keyType}:${valueType}}, found {${typeof k}: ${typeof v}}`
+          );
+      }
     }
+    super(entries);
+    this.#keyType = keyType;
+    this.#valueType = valueType;
+  }
 
-    set(k, v) {
-        if (!k || !v) {
-            throw "Consider providing key and value pairs that are of non-empty values!"
-        }
-        if (typeof k !== this.#keyType || typeof v !== this.#valueType) {
-            throw new TypeError(`Expected {${this.#keyType}:${this.#valueType}}, found {${typeof k}: ${typeof v}}`);
-        }
-        return super.set(k, v)
+  set(k, v) {
+    if (!k || !v) {
+      throw "Consider providing key and value pairs that are of non-empty values!";
     }
+    if (typeof k !== this.#keyType || typeof v !== this.#valueType) {
+      throw new TypeError(
+        `Expected {${this.#keyType}:${
+          this.#valueType
+        }}, found {${typeof k}: ${typeof v}}`
+      );
+    }
+    return super.set(k, v);
+  }
 }
-
