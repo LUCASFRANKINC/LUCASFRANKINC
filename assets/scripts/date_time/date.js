@@ -65,3 +65,76 @@ console.table({"Initially time":initDate.toString(), "Altered time":dateObj.toSt
 * └────────────────┴────────────────────────────────────────────────────────────┘
 */
 
+/**
+*! The methods for querying the day-of-month are getDate() and getUTCDate()
+** The more natural-sounding functions getDay() and getUTCDay() return the
+** day-of-week (0 for Sunday through 6 for Saturday). The day-of-week is read-only, so
+** there is not a corresponding setDay() method
+ */
+console.log("Day of week: " + dateObj.getDay()); //Monday => 1.
+
+
+//*                     Using Date.parse()
+/**
+ * The parse() method takes a date string (such as "2011-10-10T14:48:00") 
+ * and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC
+ */
+let parsed = Date.parse("2011-10-10T14:48:00");
+console.log("Parsed: " + new Date(parsed).toUTCString())
+
+//*             Formatting and Parsing Date Strings
+/**
+** toString()
+This method uses the local time zone but does not format the date and time in a
+locale-aware way.
+** toUTCString()
+This method uses the UTC time zone but does not format the date in a locale-
+aware way.
+** toISOString()
+This method prints the date and time in the standard year-month-day
+hours:minutes:seconds.ms format of the ISO-8601 standard. The letter “T” sepa‐
+rates the date portion of the output from the time portion of the output. The time
+is expressed in UTC, and this is indicated with the letter “Z” as the last letter of
+the output.
+**toLocaleString()
+This method uses the local time zone and a format that is appropriate for the
+user’s locale.
+**toDateString()
+This method formats only the date portion of the Date and omits the time. It uses
+the local time zone and does not do locale-appropriate formatting.
+**toLocaleDateString()
+This method formats only the date. It uses the local time zone and a locale-
+appropriate date format.
+**toTimeString()
+This method formats only the time and omits the date. It uses the local time zone
+but does not format the time in a locale-aware way.
+**toLocaleTimeString()
+This method formats the time in a locale-aware way and uses the local time zone.
+ */
+
+let toFormat = new Date(2022, 6, 17, 15, 4, 20);
+console.table({
+    "toString()":toFormat.toString(),
+    "toISOString()":toFormat.toISOString(),
+    "toUTCString()":toFormat.toUTCString(),
+    "toLocaleString()":toFormat.toLocaleString(),
+    "toDateString()":toFormat.toDateString(),
+    "toLocaleDateString()":toFormat.toLocaleDateString(),
+    "toTimeString()":toFormat.toTimeString(),
+    "toLocaleTimeString()":toFormat.toLocaleTimeString(),
+})
+/**
+ * *                               My output
+┌──────────────────────┬────────────────────────────────────────────────────────────┐
+│       (index)        │                           Values                           │
+├──────────────────────┼────────────────────────────────────────────────────────────┤
+│      toString()      │ 'Sun Jul 17 2022 15:04:20 GMT+0300 (Moscow Standard Time)' │
+│    toISOString()     │                 '2022-07-17T12:04:20.000Z'                 │
+│    toUTCString()     │              'Sun, 17 Jul 2022 12:04:20 GMT'               │
+│   toLocaleString()   │                  '7/17/2022, 3:04:20 PM'                   │
+│    toDateString()    │                     'Sun Jul 17 2022'                      │
+│ toLocaleDateString() │                        '7/17/2022'                         │
+│    toTimeString()    │         '15:04:20 GMT+0300 (Moscow Standard Time)'         │
+│ toLocaleTimeString() │                        '3:04:20 PM'                        │
+└──────────────────────┴────────────────────────────────────────────────────────────┘
+ */
