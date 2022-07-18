@@ -1,3 +1,4 @@
+import Ping from ("../important files/ping");
 /**
  * ~Error objects have two properties: message and name, and a method: toString().
  * &The value of the message property is the value you passed to the Error() constructor,converted to a string if necessary.
@@ -24,10 +25,14 @@ class ValidationError extends Error {
   }
 }
 
+let ping = new Ping();
+
 const emailChecker = email => {
     let mess = ""
     try{
-         if(/^[^@]+@[^@\.]+\..+[^\W]$/g.test(email)) mess = "Email verified"; 
+         if(/^[^@]+@[^@\.]+\..+[^\W]$/g.test(email)){
+
+         }
          else throw new ValidationError("The email is invalid!", "Email Error")
     }
     catch(ex) {
@@ -48,3 +53,5 @@ console.log(emailChecker("lu.casfrank254@ddf.co.ke#"))
  * To do this, we can catch and rethrow lower-level exceptions and catch them in higher-level code.
  * First, we have to create a parent and child classes which extend from the Error class
  */
+
+pingDomain("www.gmail.com")
