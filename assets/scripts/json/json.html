@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON example</title>
+  </head>
+  <body>
+    <script>
+      function loadDoc() {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            let str = JSON.parse(this.responseText);
+            console.log(str[0].name)
+          }
+        };
+        xhttp.open("GET", "./user.json");
+        xhttp.send();
+      }
+      loadDoc();
+    </script>
+  </body>
+</html>
