@@ -1,0 +1,1 @@
+alert("Howdy? Upgrade your browser to the latest version.");
