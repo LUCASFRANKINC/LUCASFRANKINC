@@ -1,22 +1,56 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <title>JSON example</title>
-  </head>
-  <body>
-    <script>
-      function loadDoc() {
+    <script nomodule src="../jsmodules/nomodule.js"></script>
+    <style>
+        body {
+        }
+
+        table, tr, td {
+            text-align: center;
+            border: 1px solid grey;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<p></p>
+<script>
+    function loadDoc() {
         const xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
-          if (this.readyState == 4 && this.status == 200) {
-            let str = JSON.parse(this.responseText);
-            console.log(str[0].name)
-          }
+            if (this.readyState === 4 && this.status === 200) {
+                let str = JSON.parse(this.responseText);
+                console.log(str[0].name)
+            }
         };
         xhttp.open("GET", "./user.json");
         xhttp.send();
-      }
-      loadDoc();
-    </script>
-  </body>
+    }
+
+    loadDoc();
+</script>
+<script type="module">
+    import {default as Data} from './stringify.mjs';
+
+    let string = "<table><thead><th colspan='2'>Work Data</th></thead><tbody>";
+    for (let i of JSON.parse(Data, (key, value) => {
+     if(key[0] === "_") return undefined;
+     if(typeof value === "string" && /^\d{4}-\d{2}-\d{2}t\d{2}:\d{2}:\d{2}\.\d{3}z$/i.test(value)){
+         return new Date(value).toDateString();
+     }
+     return value;
+    })) {
+        for (let [key, value] of Object.entries(i)) {
+            string += `<tr><td>${key}</td><td>${value}</td></tr>`
+        }
+    }
+    string += "</tbody></table>"
+    document.getElementsByTagName('p')[0].innerHTML = string;
+</script>
+</body>
 </html>
