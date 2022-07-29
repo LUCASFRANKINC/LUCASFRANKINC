@@ -16,4 +16,8 @@ let obj = [
         ]
     }
 ]
-export default JSON.stringify(obj, null, 2);
+//specify what to stringify using an array of values
+//export default JSON.stringify(obj, ["name", "born", "age"], 2);
+
+//specify a replacer function
+export default JSON.stringify(obj, (key, value) => key === 'age' ? undefined : value )
