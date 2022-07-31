@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="../../images/fdd_small.png" />
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"/>
+    <title>Internationalization</title>
+</head>
+<body>
+    <p></p>
+<script type="module">
+    import {mapped} from './intl.mjs';
+    document.getElementsByTagName("p")[0].innerHTML = mapped;
+</script>
+<script type="module">
+    import {default as timezone} from '../important files/timezone.mjs';
+    console.log(timezone)
+    document.getElementsByTagName('p')[0].innerHTML = timezone;
+</script>
+</body>
+</html>
