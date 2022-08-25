@@ -3,8 +3,6 @@
  
 ---
 
-
-### :hammer_and_wrench: Proficiency
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
@@ -17,12 +15,8 @@
 
 ---
 <div float="left">
-<img src="https://github-readme-stats.vercel.app/api?username=LUCASFRANKINC&show_icons=true&theme=radical" /> 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=LUCASFRANKINC&theme=radical" /> 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LUCASFRANKINC&show_icons=true&theme=radical&langs_count=8&layout=compact)](https://github.com/LUCASFRANKINC/github-readme-stats" height="250em"/> 
- <img src="https://activity-graph.herokuapp.com/graph?username=LUCASFRANKINC&theme=radical" height="250em" />
+<img src="https://github-readme-stats.vercel.app/api?username=LUCASFRANKINC&count_private=true&show_icons=true&theme=radical" /> 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=LUCASFRANKINC&theme=radical" />
 </div>
-ate tests as appropriate.
 
-## Quote
-“If you can't explain it simply, then you don't understand it well.” – IMO.
+Stay hungry, Stay foolish.
