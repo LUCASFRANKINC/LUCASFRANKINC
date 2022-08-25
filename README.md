@@ -14,9 +14,11 @@
 </div>
 
 ---
-<div float="left">
+<div>
 <img src="https://github-readme-stats.vercel.app/api?username=LUCASFRANKINC&count_private=true&show_icons=true&theme=radical" /> 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=LUCASFRANKINC&theme=radical" />
 </div>
 
-Stay hungry, Stay foolish.
+---
+
+<strong>Stay hungry, Stay foolish.   <span align="right">&copy;Frank Dex Devs&reg; 2022</span><strong>
