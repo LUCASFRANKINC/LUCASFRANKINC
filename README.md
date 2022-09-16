@@ -19,6 +19,9 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=LUCASFRANKINC&theme=radical" />
 </div>
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=LUCASFRANKINC&theme=dark_dimmed)](https://github.com/LUCASFRANKINC/github-profile-trophy)
 ---
 
 <strong>Stay hungry, Stay foolish.   <span align="right">&copy;Frank Dex Devs&reg; 2022</span><strong>
+
+
