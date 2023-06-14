@@ -10,6 +10,8 @@ I am passionate about technology and love to explore various domains of software
 
 ## Projects Overview 🚀
 
+![](./profile-3d-contrib/profile-night-rainbow.svg)
+
 Here are some highlights of the projects you can find in my repositories:
 
 - **[Project Name 1](link-to-repository)**: A brief description of the project and its purpose. Highlight any significant achievements or technologies utilized.
