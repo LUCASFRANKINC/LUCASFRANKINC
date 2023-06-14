@@ -12,15 +12,9 @@ I am passionate about technology and love to explore various domains of software
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
-Here are some highlights of the projects you can find in my repositories:
+I am just starting out on concrete projects. Be on the watch, something great is on build ✔️.
 
-- **[Project Name 1](link-to-repository)**: A brief description of the project and its purpose. Highlight any significant achievements or technologies utilized.
 
-- **[Project Name 2](link-to-repository)**: Provide a brief overview of this project as well, emphasizing its uniqueness or impact.
-
-- **[Project Name 3](link-to-repository)**: Share another exciting project, mentioning any challenges overcome or lessons learned.
-
-Feel free to explore my repositories to discover more exciting projects and delve into the code. Don't hesitate to provide feedback or suggestions for improvement—I'm always open to collaboration and learning from others.
 
 ## Tech Stack 💻
 
@@ -50,12 +44,6 @@ I believe in the power of collaboration and open-source communities. If you find
 
 Thank you for visiting my GitHub profile! Enjoy exploring and have a fantastic day! 🌟
 
-<div>
-<img src="https://github-readme-stats.vercel.app/api?username=LUCASFRANKINC&count_private=true&show_icons=true&theme=radical" /> 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=LUCASFRANKINC&theme=radical" />
-</div>
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=LUCASFRANKINC&theme=tokyonight&row=1&column=6)](https://github.com/LUCASFRANKINC/github-profile-trophy)
 ---
 
 <strong>Stay hungry, Stay foolish.   <span align="right">&copy;Frank Dex Devs&reg; 2022</span><strong>
