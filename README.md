@@ -1,6 +1,6 @@
 
 
-<h1 align="center">Welcome to My GitHub Profile! ✨</h1>
+<h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=15&pause=1000&color=BEBEBEF8&background=09FFD400&center=true&vCenter=true&width=900&lines=If+it+aint+true%2C+then%2C+it+probably+is+FOSS+%E2%95%B0(*%C2%B0%E2%96%BD%C2%B0*)%E2%95%AF;Welcome+to+My+GitHub+Profile!+%E2%9C%A8" alt="Typing SVG" /></a></h1>
 
 <p align="center"><img src="https://github.com/LUCASFRANKINC/LUCASFRANKINC_dev/blob/main/assets/lf.jpg" /></p> 
 <p  align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=15&pause=1000&color=BEBEBEF8&background=09FFD400&center=true&vCenter=true&width=900&lines=Frank+Dex+Devs+%F0%9F%8F%A1%F0%9F%8F%A0;Software+Developer;Web+App+Developer;7%2B+years+of+experience+with+SAP%2C+.NET+Framework+and+Javascript;FOSS+evangelist;1+%2B+1+%3E+2+%F0%9F%92%9A" alt="Typing SVG" /></a></p>
