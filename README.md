@@ -52,6 +52,6 @@ Thank you for visiting my GitHub profile! Enjoy exploring and have a fantastic d
 
 ---
 
-<strong>Stay hungry, Stay foolish.   <span align="right">&copy;Frank Dex Devs&reg; 2022</span><strong>
+<strong>Stay hungry, Stay foolish.   <span align="right">&copy;Frank Dex Devs&reg; 2016-2023</span><strong>
 
 
