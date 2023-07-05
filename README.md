@@ -8,6 +8,8 @@ I am passionate about technology and love to explore various domains of software
 
 ## Projects Overview 🚀
 
+![](profile-3d-contrib/profile-night-rainbow.svg)
+
 👋 Hey there. Some good news from me fellow developers and JavaScript enthusiasts!
 
 Here goes a passionate software developer with a love for creating comprehensive and user-friendly documentation. My primary focus is on building a fantastic JavaScript documentation project that caters to both beginners and experts. 📚
