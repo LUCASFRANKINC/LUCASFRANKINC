@@ -8,7 +8,7 @@ I am passionate about technology and love to explore various domains of software
 
 ## Projects Overview 🚀
 
-![](./profile-3d-contrib/profile-night-rainbow.svg)
+![](./profile-3d-contrib/profile-night-green.svg)
 
 I am just starting out on concrete projects. Be on the watch, something great is on build ✔️.
 
