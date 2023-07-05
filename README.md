@@ -14,7 +14,8 @@ I am passionate about technology and love to explore various domains of software
 
 Here goes a passionate software developer with a love for creating comprehensive and user-friendly documentation. My primary focus is on building a fantastic JavaScript documentation project that caters to both beginners and experts. 📚
 
-🌟 Explore the JavaScript Docs Project: [Javascript docs for all 😀](https://lucasfrankinc.github.io/javascript-by-francis.github.io/)
+🌟 Explore the JavaScript Docs Project: [Javascript docs for all 😀](https://lucasfrankinc.github.io/javascript-by-francis.github.io/)<br />
+<a href="https://lucasfrankinc.github.io/javascript-by-francis.github.io/"><img src="https://media4.giphy.com/media/SXNFrLIW9eyxwclkCW/giphy.gif"/></a>
 
 📖 What's Inside?
 
