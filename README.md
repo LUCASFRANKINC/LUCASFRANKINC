@@ -1,16 +1,16 @@
-<p align="center"><img src="https://github.com/LUCASFRANKINC/LUCASFRANKINC/blob/main/18824957-ai.png" /></p>
+<p align="center"><img src="https://github.com/LUCASFRANKINC/LUCASFRANKINC_dev/blob/main/assets/lf.jpg" /></p>
 
 Hello there! Welcome to my GitHub profile. I'm thrilled to have you here. Let me take a moment to introduce myself and give you an overview of what you can find in this repository.
 
 ## About Me 👩‍💻
 
 I am passionate about technology and love to explore various domains of software development. My journey in the world of programming started several years ago, and since then, I have been on an exciting learning adventure. My primary focus is on **Software Dev** and **Web apps dev**, and I'm always eager to expand my knowledge and skills in these fields.
-
-## Projects Overview 🚀
+<hr />
+## Projects in progress 🚀
 
 ![](profile-3d-contrib/profile-night-rainbow.svg)
 
-👋 Hey there. Some good news from me fellow developers and JavaScript enthusiasts!
+👋 As a thanksgiving to JavaScript, I made the documentation to save developers time researching.
 
 Here goes a passionate software developer with a love for creating comprehensive and user-friendly documentation. My primary focus is on building a fantastic JavaScript documentation project that caters to both beginners and experts. 📚
 
@@ -27,6 +27,8 @@ The JavaScript Docs Project is a comprehensive collection of well-organized docu
 - In-depth coverage of JavaScript statements, objects, arrays, and functions... Wait a minute, so much more....
 - Clear and concise code snippets to illustrate concepts
 - Useful tips and best practices for efficient JavaScript development
+
+<hr />
 
 I just can't stop building 🚧👷‍♂️. Come back for more ⏲️.
 
