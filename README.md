@@ -6,6 +6,7 @@ Hello there! Welcome to my GitHub profile. I'm thrilled to have you here. Let me
 
 I am passionate about technology and love to explore various domains of software development. My journey in the world of programming started several years ago, and since then, I have been on an exciting learning adventure. My primary focus is on **Software Dev** and **Web apps dev**, and I'm always eager to expand my knowledge and skills in these fields.
 <hr />
+
 ## Projects in progress 🚀
 
 ![](profile-3d-contrib/profile-night-rainbow.svg)
@@ -14,8 +15,7 @@ I am passionate about technology and love to explore various domains of software
 
 Here goes a passionate software developer with a love for creating comprehensive and user-friendly documentation. My primary focus is on building a fantastic JavaScript documentation project that caters to both beginners and experts. 📚
 
-🌟 Explore the JavaScript Docs Project: [Javascript docs for all 😀](https://lucasfrankinc.github.io/javascript-by-francis.github.io/)<br />
-<a href="https://lucasfrankinc.github.io/javascript-by-francis.github.io/"><img src="https://media4.giphy.com/media/FUdCakrH8XSgzQGKsM/giphy.gif"/></a>
+🌟 Explore the JavaScript Docs Project 👉: [Javascript docs for all 😀](https://lucasfrankinc.github.io/javascript-by-francis.github.io/)<br />
 
 📖 What's Inside?
 
