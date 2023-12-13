@@ -1,5 +1,3 @@
-<p align="center"><img src="https://github.com/LUCASFRANKINC/LUCASFRANKINC_dev/blob/main/assets/lf.jpg" /></p>
-
 Passionate about technology and love to explore various domains of software development.
 
 <div>
