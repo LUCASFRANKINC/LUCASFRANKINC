@@ -22,6 +22,6 @@ I'm always excited to connect with fellow developers and technology enthusiasts.
 
 <hr />
 
-<strong>Stay hungry, Stay foolish.   <span align="right">&copy;Frank Dex Devs&reg; 2016-2023</span><strong>
+<strong>Stay hungry, Stay foolish.   <span align="right">&copy;Frank Dex Devs&reg; 2016-2024</span><strong>
 
 
