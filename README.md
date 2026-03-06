@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Lucas Francis K.</h1>
+<h1 align="center">Hi 👋</h1>
 <h3 align="center">A passionate fullstack developer from Kenya, Africa</h3>
 
 - 🔭 Let's get to work via  [Frank Dex Devs](frankdexdevs.org)
